@@ -1,0 +1,21 @@
+body{
+    background-color:#008b8b ;
+}
+/*comentários*/
+
+div{
+    display: block;
+    background-color:#f0f8ff;
+    border-radius: 10px;
+    
+}
+
+#linha{
+    background-color: #0000ff;
+    color: #f0f8ff;
+}
+
+.coluna{
+    background-color: red;
+    color: #f0f8ff;
+}
