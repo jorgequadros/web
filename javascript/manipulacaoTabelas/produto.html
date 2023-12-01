@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carrega();">
+    <header>
+        <h1>Cadastro de Produtos</h1>
+    </header>
+    <section>
+    
+    <div id="corpo" name="corpo">
+        <table border="1" id="tabela">
+            <TBody>
+                <tr>
+                    <th>Código</th><th>Descriçao</th><th>Operação</th>
+                </tr>
+                <tr>
+                    <form id="FormId" Name="FormName" action="">
+                        <td><Input type="text" id="Codigo" ></Input></td>
+                        <td><Input type="text" id="Descricao"></Input></td>
+                        <td>
+                            <input type="button" id="Incluir" onclick="Adicionar('tabela','Codigo','Descricao');" value="Incluir"></Input>
+                            <input type="button" id="Consulta" onclick="Adicionar('tabela','Codigo','Descricao');" value="Consulta"></Input>
+                        </td>
+                    </form>
+                </tr>
+            </TBody>
+        </table>
+    </div>
+    
+    <div id="rodape" name="rodape"></div>
+</section>
+<footer></footer>
+<script src="script.js"></script>
+</body>
+</html>

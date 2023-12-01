@@ -1,0 +1,45 @@
+body {background: white;}
+
+.formulario{
+    background:cadetblue ;
+    border: thin solid #999;
+    margin: 0.5 0 0 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.section{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 29, 29);
+    font-style: italic;
+    background-color: rgb(244, 246, 247);
+    margin: 1.5em 20em 1.5em 20em;
+    border: thin solid #999; 
+    padding: 0.5em;
+    box-shadow: 5px 10px teal;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+}
+
+input[type=text]{
+    margin: 0.5em 0 0 0.5em;
+    border-radius: 5px;
+}
+
+input[type=password]{
+    margin: 0.5em 0 0 0.5em;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    margin: 1em 0 0 1em;
+    background-color: gainsboro;
+}
+input[type=reset]{
+    margin: 1em 0 0 1em;
+    background-color: gainsboro;
+}

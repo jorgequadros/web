@@ -1,0 +1,39 @@
+body{
+    background: rgb(107, 107, 241);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(76, 72, 72);
+}
+
+#tabela{
+    font: normal 10pt Arial;
+}
+
+th{
+    background-color: grey;
+    font: normal 12pt Arial;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+div{
+    text-align: left;
+    font: normal 10pt Arial;
+    font-style: bold;
+}
