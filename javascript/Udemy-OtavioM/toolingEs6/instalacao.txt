@@ -1,3 +1,6 @@
 instalação do babel
 npm init -y //gera package.json
 npm install --save-dev @babel/cli @babel/preset-env @babel/core //instala babel
+
+npx babel nomeArquivo.js -o novoArquivo.js --presets=@babel/env
+ex.: npx babel main.js -o bundle.js --presets=@babel/env
