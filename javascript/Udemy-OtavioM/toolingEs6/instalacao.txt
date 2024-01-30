@@ -1,0 +1,3 @@
+instalação do babel
+npm init -y //gera package.json
+npm install --save-dev @babel/cli @babel/preset-env @babel/core //instala babel
