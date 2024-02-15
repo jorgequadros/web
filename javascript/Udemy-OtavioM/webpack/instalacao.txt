@@ -1,2 +1,8 @@
 npm init -y
 npm i --save-dev @babel/preset-env @babel/cli @babel/core babel-loader webpack webpack-cli regenerator-runtime core-js@02
+
+deletar este duas linha do package.json
+"core-js": "^2.6.12",
+    "regenerator-runtime": "^0.14.1",
+
+    npm i core-js regenerator-runtime
